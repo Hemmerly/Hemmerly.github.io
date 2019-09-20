@@ -980,7 +980,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: flex;
+			display: block;
 			width: 100%
 		}
 
@@ -1423,8 +1423,6 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
